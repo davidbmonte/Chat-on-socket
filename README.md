@@ -24,3 +24,15 @@ Você pode testar o projeto localmente na mesma máquina ou em computadores dife
 ```bash
 git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
 cd seu-repositorio
+```
+### 2. Iniciar o Servidor (Host)
+O servidor precisa ser iniciado primeiro para ficar aguardando a conexão.
+```bash
+python host.py
+```
+### 3. Iniciar o Cliente
+Em outro terminal (ou em outra máquina), configure o IP se necessário e execute:
+```bash
+python client.py
+```
+### Configuração para Testes em Redes Diferentes (Máquinas Reais)
