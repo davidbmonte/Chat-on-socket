@@ -1,4 +1,4 @@
-# Simple Python TCP Chat (Socket & Threading)
+# TCP chat simples em python (Socket & Threading)
 
 Este é um projeto simples de chat bilateral (Peer-to-Peer / Cliente-Servidor) desenvolvido em Python utilizando a biblioteca nativa `socket` para comunicação em rede TCP e `threading` para permitir o envio e recebimento de mensagens de forma simultânea (assíncrona).
 
